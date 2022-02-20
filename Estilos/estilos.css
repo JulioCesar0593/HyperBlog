@@ -1,11 +1,25 @@
 body{
     font-family: "Arial";
     font-weight: bold;
-    background-color: beige;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px ;
 }
-
+.container{
+    text-align:justify;
+    border:solid 1px royalblue;
+    border-radius: 20px;
+    width: 70%;
+    margin : 0 auto;
+ 
+}
+.post{
+    margin: 50px;
+    padding: 10;
+}
 h1{
-    color: violet;
+    color: gray;
 }
 
 p{
