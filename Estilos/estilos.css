@@ -1,7 +1,7 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    background-color: slategrey;
+    background-color: rgb(80, 82, 85);
 
 }
 .hyperblog{
@@ -56,13 +56,14 @@ body{
     width: 100%;
 }
 
-.post p {
-    padding: 32px;
-    text-align: justify;
-    text-underline-offset:unset;
-}
-
 .post h1{
     padding: 0 24px 0 24px;
 }
+
+.post p {
+    padding: 8px 52px 8px 52px;
+    text-align: justify;
+}
+
+
 
