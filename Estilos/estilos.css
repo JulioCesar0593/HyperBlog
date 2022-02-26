@@ -1,42 +1,68 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    padding-top: 10px;
-    text-align: center;
     margin: 0;
+    background-color: slategrey;
+
 }
+.hyperblog{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    height: 100%;
+    padding-top: 4px;
+}
+
 .container{
-    text-align:justify;
-    border:solid 1px royalblue;
-    border-radius: 20px;
     width: 70%;
-    margin : 0 auto ;
-    position: relative; 
-}
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    display: grid;
+    border: solid 1px;
+    background-color: white;
+    border-radius: 20px; 
+    box-shadow: 0px 0px 10px 0px #333 inset;
+    justify-items: center;
 
-.cabecera{
-    background-color: crimson;
-    color: aliceblue;
-    margin-top: 0;
-    position: absolute;
+}
+.header{
+    display: flex;
     width: 100%;
-    border-radius: 20PX 20PX 0 0 ;
-
+    height: 100px;
+    background-color: rgb(45, 90, 185);
+    color: white;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 0px #333 inset;
 }
 
-.cabecera h3{
-    padding: 5px 15px ;
+.logo{
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.header h3{
+    padding: 12px;
+    margin: 0;font-size: large;
+}
+
+.header h5{
+    padding: 12px;
 }
 
 .post{
-    margin: 50px;
-    padding: 10PX;
-}
-h1{
-    color: gray;
+    padding: 24px ;
+    width: 100%;
 }
 
-p{
-    color: steelblue;
+.post p {
+    padding: 32px;
+    text-align: justify;
+    text-underline-offset:unset;
+}
+
+.post h1{
+    padding: 0 24px 0 24px;
 }
 
