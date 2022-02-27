@@ -14,7 +14,7 @@ body{
 
 .container{
     width: 70%;
-    height: 100vh;
+    height: 100%;
     grid-template-rows: auto 1fr auto;
     display: grid;
     border: solid 1px;
@@ -65,8 +65,9 @@ body{
     text-align: justify;
 }
 
-
-
+.imagen-container{
+    width: 100%;
+}
 
 .footer{
     background-color: #333;
